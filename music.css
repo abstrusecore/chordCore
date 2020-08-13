@@ -1,0 +1,151 @@
+html {
+    font-family: 'VT323', monospace;
+}
+
+@media only screen and (max-width: 600px) {
+    html {
+        font-size: 8px;
+    }
+}
+@media only screen and (min-width: 600px) {
+    html {
+        font-size: 9px;
+    }
+}
+@media only screen and (min-width: 768px) {
+    html {
+        font-size: 10px;
+    }
+}
+@media only screen and (min-width: 992px) {
+    html {
+        font-size: 12px;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    html {
+        font-size: 14px;
+    }
+}
+header {
+    display: flex;
+    align-items: center;
+    color: #1a87ec;
+    font-size: 1.35rem;
+}
+
+
+.f1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: maroon;
+    border: 2px solid black;
+    box-sizing: border-box;
+}
+.f2 {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.t {
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    width: 200px;
+    color: green;
+    background-color: palegoldenrod;
+    margin: 10px 10px;
+    border: 2px solid black;
+    box-sizing: border-box;
+}
+.hover {
+    background-color: yellow;
+}
+.hover2 {
+    background: goldenrod;
+}
+td:active {
+    border: 2px solid #06365f;
+}
+#box {
+    display: flex;
+    overflow-x: scroll;
+}
+.dot {
+    background-color: #dac7a3
+}
+body {
+    background-color: #3A3E42;
+}
+tr {
+    text-align: center;
+}
+th, td {
+    padding: 0.75rem;
+    background: #C2A263;
+    transition: background 0.35s;
+    transition-timing-function: ease;
+    font-family: 'Fondamento', cursive;
+    font-size: 1.2rem;
+}
+td {
+    cursor: pointer;
+}
+table {
+    border: 3px solid #B1C0CC;
+    width: 100%;
+    height: auto;
+  }
+th, td {
+    border: 2px solid #6E9BC2;
+  }
+.string {
+    color: white;
+    font-size: 1.5rem;
+}
+.top {
+    color: black;
+    font-size: 1.5rem;
+}
+tbody {
+    color: #202D38;
+}
+#a1 {
+    color: black;
+    background-color: darkred;
+}
+p {
+    display: block;
+}
+#info {
+    color: #B1C0CC;
+    background-color: #0b1924;
+    font-size: 2rem;
+    padding: 1rem;
+    word-spacing: -0.5rem;
+    text-align: center;
+    width: auto;
+    margin: 1rem auto;
+}
+#selectors {
+    width: 50%;
+    margin: 3rem auto;
+    text-align: center;
+}
+select {
+    padding: 0.5rem;
+    margin: 1rem auto;
+    text-align: center;
+    font-family: 'Fondamento', cursive;
+    background-color: black;
+    transition: color 0.25s;
+    transition-timing-function: ease;
+    color: rgb(182, 182, 182);
+    border: 1px solid white;
+    cursor: pointer;
+}
+select:hover {
+    background-color: black;
+    color: white;
+}
