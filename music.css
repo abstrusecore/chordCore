@@ -76,7 +76,7 @@ td:active {
     background-color: #dac7a3
 }
 body {
-    background-color: #3A3E42;
+    background: #3A3E42 url(./musicBG.gif) repeat fixed center;
 }
 tr {
     text-align: center;
